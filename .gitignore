@@ -18,6 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
+.idea/
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +32,23 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Saída de Build
+/build/
+/target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+
+# Logs
+logs/
+*.log
+
+# Dependências
+.gradle/
+# Cache do Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Configurações e Segredos
+*.env
